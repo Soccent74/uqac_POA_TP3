@@ -1,6 +1,6 @@
-package edu.uqac.aop.chess;
+package uqac.aop.chess;
 
-import edu.uqac.aop.chess.piece.Piece;
+import uqac.aop.chess.piece.Piece;
 
 public class Spot {
 	private boolean occupied;

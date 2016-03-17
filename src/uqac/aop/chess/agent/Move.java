@@ -1,4 +1,4 @@
-package edu.uqac.aop.chess.agent;
+package uqac.aop.chess.agent;
 
 public class Move {
 	public int xI, xF, yI, yF;

@@ -1,7 +1,7 @@
-package edu.uqac.aop.chess.piece;
+package uqac.aop.chess.piece;
 
-import edu.uqac.aop.chess.agent.Move;
-import edu.uqac.aop.chess.agent.Player;
+import uqac.aop.chess.agent.Move;
+import uqac.aop.chess.agent.Player;
 
 public class Rook extends Piece {
 

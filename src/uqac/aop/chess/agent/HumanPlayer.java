@@ -1,6 +1,6 @@
-package edu.uqac.aop.chess.agent;
+package uqac.aop.chess.agent;
 
-import edu.uqac.aop.chess.Board;
+import uqac.aop.chess.Board;
 
 public class HumanPlayer extends Player {
 

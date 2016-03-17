@@ -1,9 +1,9 @@
-package edu.uqac.aop.chess;
+package uqac.aop.chess;
 
-import edu.uqac.aop.chess.agent.AiPlayer;
-import edu.uqac.aop.chess.agent.HumanPlayer;
-import edu.uqac.aop.chess.agent.Move;
-import edu.uqac.aop.chess.agent.Player;
+import uqac.aop.chess.agent.AiPlayer;
+import uqac.aop.chess.agent.HumanPlayer;
+import uqac.aop.chess.agent.Move;
+import uqac.aop.chess.agent.Player;
 
 public class Chess {
 

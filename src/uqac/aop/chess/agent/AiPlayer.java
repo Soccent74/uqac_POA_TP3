@@ -1,7 +1,7 @@
-package edu.uqac.aop.chess.agent;
+package uqac.aop.chess.agent;
 
 import java.util.Random;
-import edu.uqac.aop.chess.Board;
+import uqac.aop.chess.Board;
 
 public class AiPlayer extends Player {
 	// dies roooooll

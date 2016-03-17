@@ -1,14 +1,14 @@
-package edu.uqac.aop.chess;
+package uqac.aop.chess;
 
-import edu.uqac.aop.chess.agent.Move;
-import edu.uqac.aop.chess.agent.Player;
-import edu.uqac.aop.chess.piece.Bishop;
-import edu.uqac.aop.chess.piece.King;
-import edu.uqac.aop.chess.piece.Knight;
-import edu.uqac.aop.chess.piece.Pawn;
-import edu.uqac.aop.chess.piece.Piece;
-import edu.uqac.aop.chess.piece.Queen;
-import edu.uqac.aop.chess.piece.Rook;
+import uqac.aop.chess.agent.Move;
+import uqac.aop.chess.agent.Player;
+import uqac.aop.chess.piece.Bishop;
+import uqac.aop.chess.piece.King;
+import uqac.aop.chess.piece.Knight;
+import uqac.aop.chess.piece.Pawn;
+import uqac.aop.chess.piece.Piece;
+import uqac.aop.chess.piece.Queen;
+import uqac.aop.chess.piece.Rook;
 
 public class Board {
 	private Spot[][] grid;

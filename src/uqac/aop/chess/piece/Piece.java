@@ -1,6 +1,6 @@
-package edu.uqac.aop.chess.piece;
+package uqac.aop.chess.piece;
 
-import edu.uqac.aop.chess.agent.Move;
+import uqac.aop.chess.agent.Move;
 
 public abstract class Piece {
 	 protected int player;
