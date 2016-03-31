@@ -40,13 +40,13 @@ public class Spot {
 		setOccupied(false);
 	}
 
-	@Override
+	//@Override
 	public boolean equals(Object o) {
 		Spot b = (Spot) o;
 		return (this.xPos == b.xPos) && (this.yPos == b.yPos);
 	}
 
-	@Override
+	//@Override
 	public String toString() {
 		String s = xPos + "" + yPos;
 		return s;
