@@ -1,8 +1,13 @@
 package uqac.aop.chess.agent;
 
+import java.io.File;
+
 import uqac.aop.chess.Board;
 
 public class HumanPlayer extends Player {
+	
+	String nomfichier = "file.txt";
+	String coup = "";
 
 	public HumanPlayer(int arg, Board board) {
 		setColor(arg);
@@ -35,15 +40,20 @@ public class HumanPlayer extends Player {
 		do{				
 			System.out.print ("Votre coup? <a2a4> ");				
 			initialX = Lire();
+			System.out.println(initialX);
 			initialY = Lire();
+			System.out.println(initialY);
 			finalX = Lire();
 			finalY = Lire();
 			ViderBuffer();
 
-			mv = new Move(initialX-'a', initialY-'1', finalX - 'a', 	finalY-'1');
+			mv = new Move(initialX-'a', initialY-'1', finalX - 'a', finalY-'1');
+			coup = initialX + " vers " + finalX + finalY + " \n ";
 		}
 		while(!makeMove(mv));
+		//ecrire(nomfichier,coup);
 		return mv;
+		
 	}
 	
 

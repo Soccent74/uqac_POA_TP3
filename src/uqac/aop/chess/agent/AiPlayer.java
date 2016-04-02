@@ -1,9 +1,14 @@
 package uqac.aop.chess.agent;
 
 import java.util.Random;
+
 import uqac.aop.chess.Board;
 
 public class AiPlayer extends Player {
+	
+	String nomfichier = "file.txt";
+	String coup = "";
+	
 	// dies roooooll
 	private Random Dies = new Random(0);
 
@@ -38,6 +43,7 @@ public class AiPlayer extends Player {
 			finX = Dies.nextInt(8);
 			finY = Dies.nextInt(8);
 			mv = new Move(iniX, iniY, finX, finY);
+			coup = initialX + " " + initialY + " vers " + finalX + finalY + " \n ";
 		} while (!makeMove(mv));
 
 		System.out.println("Votre coup? <" + mv.toString()+ ">");
