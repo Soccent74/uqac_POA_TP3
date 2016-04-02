@@ -17,6 +17,7 @@ public class Pawn extends Piece {
 	@Override
 	public boolean isMoveLegal(Move mv) {
 		// TODO Auto-generated method stub
+		System.out.println("Ici on lance la méthode is  move legal");
 		boolean special = false;
 		// player1
 		if (player == Player.WHITE) {
